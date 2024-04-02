@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.stars > span {
+  cursor: pointer;
+}
+
+.selected {
+  color: rgb(233, 233, 27);
+}
